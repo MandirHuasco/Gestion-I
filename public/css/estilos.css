@@ -1,0 +1,136 @@
+
+.bg-yellow{
+    background-color: #fbce00 !important;
+}
+.icon-nav{
+    filter: invert(6);
+}
+.nav-item{
+    border-radius: 20px;
+    transition: .4s;
+}
+.nav-item:hover{
+    background: #fff;
+}
+.nav-link-color{
+    color: #000 !important;
+    font-weight: 600;
+}
+.nav-style{
+    filter: drop-shadow(2px 4px 6px black);
+    margin-top: 20px;
+}
+.content-logo-prin{
+    width: 900px;
+    margin: 100px 0px auto;
+}
+.content-logo-prin img{
+    width: 100%;
+    padding: 20px;
+}
+.logo-empresa{
+    width: 80px;
+    display: block;
+    top: 0;
+    padding: 20px;
+    left: 0;
+    position: absolute;
+}
+.logo-empresa img{
+    width: 100%;
+}
+.logo-navbar{
+    width: 100px;
+    padding: 0;
+    margin-top: -20px;
+}
+.text-principal{
+    font-size: 1.2rem;
+}
+.caja-principal{
+    background: #fbce00;
+    color: #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+.bg-paralex{
+    width: 100%;
+    background-image: url('../img/background-01.jpg') !important;
+    background-size: cover !important;
+    display: table;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important
+}
+.card-login{
+    width: 500px;
+    margin: auto;
+    filter: invert(1);
+    background: #fff0;
+}
+.img-login{
+    filter: invert(1);
+    width: 100px;
+}
+
+.card-register{
+    width: 500px;
+    margin: auto;
+    filter: invert(1);
+    background: #0000006e;
+}
+.img-registro{
+    filter: invert(1);
+    width: 150px;
+}
+.alert-form{
+    background: #086ae3;
+    color: #fff;
+}
+.filter-invert{
+    filter: invert(1);
+}
+.margin-left-100{
+    margin-left: 100px;
+}
+
+.button-inventario{
+    padding: 20px 40px;
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(2px 4px 6px black);
+    transition: .4s;
+}
+.button-inventario:hover{
+    filter: drop-shadow(4px 8px 12px black);
+}
+
+@media (max-width: 900px) {
+    .content-logo-prin{
+        width: 100%;
+    }
+    .caja-principal{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .text-principal{
+        font-size: .8rem;
+    }
+}
+@media (max-width: 767px) {
+    .nav-style{
+        margin-top: 0;
+    }
+    .logo-navbar{
+        margin-top: 0;
+    }
+    .logo-empresa{
+        width: 53.5px;
+        padding: 5px;
+    }
+}
